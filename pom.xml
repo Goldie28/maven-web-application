@@ -29,7 +29,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
-	</dependencies>
+	<dependencies>
 		
 		<dependency>
 			<groupId>org.json</groupId>
@@ -84,13 +84,12 @@
 		
 		<!-- provided dependencies -->
 
-		</dependency>
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-			
-		</dependency>	
+			</dependency>	
 	</dependencies>
 	<distributionManagement>
 	    <repository>
